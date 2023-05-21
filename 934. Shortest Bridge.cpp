@@ -1,7 +1,7 @@
 class Solution {
 public:
     
-    queue<pair<int, int>> q; // queue
+    queue<pair<int, int>> q; //  queue
     
     void dfs(vector<vector<int>>& grid, int i, int j) { // for marking the 1st island visited
         
