@@ -1,6 +1,5 @@
 class Solution {
-public:
-    
+public: 
     int findCheapestPrice(int n, vector<vector<int>>& flights, int src, int dst, int k) {
         queue<vector<int>>q;
         vector<int>dist(n,1e9);
