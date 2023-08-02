@@ -1,5 +1,6 @@
 class Solution {
 public:
+   
     int numSubarraysWithSum(vector<int>& nums, int goal) {
         int sum = 0;
         unordered_map<int,int>pre_freq;
